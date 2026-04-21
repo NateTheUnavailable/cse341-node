@@ -5,7 +5,7 @@ app.get('/', (req, res) => {
     res.send('hello');
 })
 app.get('/why', (req, res) => {
-    res.send(test.html);
+    res.send('bruh');
 })
 
 const bruh = 3000;
