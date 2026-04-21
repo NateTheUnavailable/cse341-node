@@ -4,6 +4,9 @@ const app = express();
 app.get('/', (req, res) => {
     res.send('hello');
 })
+app.get('/why', (req, res) => {
+    res.send(test.html);
+})
 
 const bruh = 3000;
 
