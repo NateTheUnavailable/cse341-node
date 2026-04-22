@@ -6,4 +6,4 @@ const whyfunction = ('/why', (req, res, next) => {
     res.send('Steve Gardner');
 });
 
-module.exports = {coolfunction , whyfunction};
+module.exports = {coolfunction, whyfunction};
