@@ -3,14 +3,7 @@ const app = express();
 
 app.use('/', require('./routes'));
 
-app.get('/', (req, res) => {
-    res.send('hello');
-});
-app.get('/why', (req, res) => {
-    res.send('bruh');
-});
+const a = 3000;
 
-const bruh = 3000;
-
-app.listen(process.env.port || bruh)
-console.log('Web Server is listening at port ' + (process.env.port || bruh));
+app.listen(process.env.port || a)
+console.log('Web Server is listening at port ' + (process.env.port || a));
