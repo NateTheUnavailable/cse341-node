@@ -1,9 +1,9 @@
 
 const coolfunction = ('/', (req, res, next) =>{
-    res.json('Awesome Person')
+    res.json('Rey Moon')
 });
 const whyfunction = ('/why', (req, res, next) => {
-    res.send('bruh');
+    res.send('Steve Gardner');
 });
 
 module.exports = {coolfunction , whyfunction};
