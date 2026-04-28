@@ -3,6 +3,8 @@ const app = express();
 const connectDB = require('./database/connections')
 
 connectDB();
+
+app.use('/api/userModel',require('./api/users.js'));
 app.use('/', require('./routes'));
 
 const a = process.env.port || 3000;
