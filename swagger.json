@@ -5,7 +5,7 @@
     "description": "An API Frontend To better test Get, Post, Delete, and Put",
     "version": "1.0.0"
   },
-  "host": "localhost:3000",
+  "host": "localhost:8080",
   "basePath": "/",
   "schemes": [
     "http"
